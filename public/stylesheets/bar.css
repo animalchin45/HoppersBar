@@ -60,7 +60,7 @@ header {
 	z-index: 1;
 	background-color: rgba(10, 10, 10, 0.25);
 	justify-content: space-between;
-	padding: 20px 50px;
+	padding: 10px 15px;
 	animation: 0.5s fadeIn 0.5s forwards;
 	opacity: 0;
 }
