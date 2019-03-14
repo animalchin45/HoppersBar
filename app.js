@@ -12,5 +12,5 @@ app.use(indexRoute);
 // 	console.log("Hopper's Bar");
 // });
 
-HOSTED SERVER CODE
+// HOSTED SERVER CODE
 app.listen(process.env.PORT, process.env.IP);
