@@ -1,6 +1,4 @@
 var express 	= require("express"),
-	scrollmagic = require("scrollmagic"),
-	gsap        = require("gsap"),
 	app     	= express();
 
 
