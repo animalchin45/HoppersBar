@@ -1,5 +1,8 @@
-var express = require("express"),
-	app     = express();
+var express 	= require("express"),
+	scrollmagic = require("scrollmagic"),
+	gsap        = require("gsap"),
+	app     	= express();
+
 
 var indexRoute = require("./routes/index");
 
