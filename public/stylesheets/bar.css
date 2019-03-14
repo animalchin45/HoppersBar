@@ -211,12 +211,6 @@ header nav li {
 	opacity: 0;
 }
 
-@media (max-width: 800px) {
-	.menu img {
-		width: 95%;
-	}
-}
-
 /*Photos Styles*/
 
 .photos {
