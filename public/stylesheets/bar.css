@@ -206,9 +206,14 @@ header nav li {
 }
 
 .menu img {
-	width: auto;
-	height: 100vh;
+	width: 800px;
 	opacity: 0;
+}
+
+@media (max-width: 800px) {
+	.menu img {
+		width: 500px;
+	}
 }
 
 /*Photos Styles*/
