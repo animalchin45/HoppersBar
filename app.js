@@ -10,9 +10,9 @@ app.use("/gsap", express.static(__dirname + "/node_modules/gsap"));
 
 app.use(indexRoute);
 
-// app.listen(3000, function(){
-// 	console.log("Hopper's Bar");
-// });
+app.listen(3000, function(){
+	console.log("Hopper's Bar");
+});
 
 // HOSTED SERVER CODE
-app.listen(process.env.PORT, process.env.IP);
+// app.listen(process.env.PORT, process.env.IP);

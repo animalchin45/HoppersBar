@@ -80,6 +80,18 @@ header nav li {
 	margin: 0 10px;
 }
 
+@media (max-width: 800px) {
+	header {
+		justify-content: center;
+	}
+	header h2 {
+		display: none;
+	}
+	header li {
+		font-size: 30px;
+	}
+}
+
 /*Banner Styles*/
 
 .banner {
@@ -143,11 +155,19 @@ header nav li {
 .hero .up {
 	display: flex;
 	justify-content: center;
-	z-index: 2;
-	padding: 10px;
-	bottom: 23px;
+	z-index: 5;
+	/*padding: 10px;*/
+	bottom: 10px;
 	position: fixed;
+	font-size: 30px;
 	opacity: 0;
+}
+
+@media (max-width: 800px) {
+	.hero .up {
+		justify-content: none;
+		right: 10px;
+	}
 }
 
 /*About Styles*/
