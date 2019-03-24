@@ -80,7 +80,7 @@ header nav li {
 	margin: 0 10px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1440px) {
 	header {
 		justify-content: center;
 	}
@@ -166,7 +166,7 @@ header nav li {
 	opacity: 0;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1440px) {
 	.hero .up {
 		justify-content: none;
 		right: 10px;
@@ -213,7 +213,7 @@ header nav li {
 	color: #fff;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1440px) {
 	.about .about-content {
 		padding: 20px 30px;
 		width: 80%;
@@ -234,7 +234,7 @@ header nav li {
 	opacity: 0;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1440px) {
 	.menu {
 		height: 825px;
 	}
