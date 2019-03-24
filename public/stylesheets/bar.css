@@ -80,7 +80,7 @@ header nav li {
 	margin: 0 10px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
 	header {
 		justify-content: center;
 	}
@@ -166,7 +166,7 @@ header nav li {
 	opacity: 0;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
 	.hero h1 {
 		font-size: 180px;
 	}
@@ -216,7 +216,7 @@ header nav li {
 	color: #fff;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
 	.about h2 {
 		font-size: 50px;
 	}
@@ -243,7 +243,7 @@ header nav li {
 	opacity: 0;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
 	.menu {
 		height: 825px;
 	}
@@ -290,7 +290,7 @@ header nav li {
 	justify-content: center;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
 	.photos .grid li.small {
 		flex-basis: 100%;
 	}
@@ -375,7 +375,7 @@ header nav li {
 	opacity: 1;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
 	.connect div {
 		/*flex-basis: 100%;*/
 	}
