@@ -80,7 +80,7 @@ header nav li {
 	margin: 0 10px;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 900px) {
 	header {
 		justify-content: center;
 	}
@@ -157,7 +157,6 @@ header nav li {
 	display: flex;
 	justify-content: center;
 	z-index: 5;
-	/*padding: 10px;*/
 	bottom: 10px;
 	padding: 10px;
 	background-color: rgba(0,0,0,0.3);
@@ -167,10 +166,12 @@ header nav li {
 	opacity: 0;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 900px) {
+	.hero h1 {
+		font-size: 180px;
+	}
 	.hero .up {
-		justify-content: none;
-		right: 10px;
+		display: none;
 	}
 }
 
@@ -187,6 +188,7 @@ header nav li {
 .about .background-image {
 	background-image: url(https://images.unsplash.com/photo-1518176258769-f227c798150e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1789&q=80);
 	background-size: cover;
+	background-position: center;
 	position: absolute;
 	z-index: -1;
 	width: 100%;
@@ -214,7 +216,13 @@ header nav li {
 	color: #fff;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 900px) {
+	.about h2 {
+		font-size: 50px;
+	}
+	.about p {
+		font-size: 25px;
+	}
 	.about .about-content {
 		padding: 20px 30px;
 		width: 80%;
@@ -235,7 +243,7 @@ header nav li {
 	opacity: 0;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 900px) {
 	.menu {
 		height: 825px;
 	}
@@ -280,6 +288,18 @@ header nav li {
 .photos .photos-btn {
 	display: flex;
 	justify-content: center;
+}
+
+@media (max-width: 900px) {
+	.photos .grid li.small {
+		flex-basis: 100%;
+	}
+	.photos .grid li.medium {
+		flex-basis: 100%;
+	}
+	.photos .grid li.large {
+		flex-basis: 100%;
+	}
 }
 
 /*Connect Styles*/
@@ -353,6 +373,12 @@ header nav li {
 
 .connect button:hover {
 	opacity: 1;
+}
+
+@media (max-width: 900px) {
+	.connect div {
+		/*flex-basis: 100%;*/
+	}
 }
 
 /*Footer Styles*/
