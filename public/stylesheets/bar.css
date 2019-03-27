@@ -244,8 +244,8 @@ header nav li {
 }
 
 @media (max-width: 1200px) {
-	section .menu {
-		height: 1100px;
+	section:nth-of-type(3) {
+		min-height: 950px;
 	}
 	.menu img {
 		width: 700px;
