@@ -255,12 +255,23 @@ header nav li {
 }
 
 .drink h2 {
+	font-size: 30px;
 	text-transform: uppercase;
 }
 
 .drink * {
 	margin-bottom: 10px;
 	color: #fff;
+}
+
+@media (max-width: 1200px) {
+	.menu-drinks {
+		width: 90vw;
+		padding: 10px;
+	}
+	.drink p {
+		font-size: 20px;
+	}
 }
 
 /*Photos Styles*/
