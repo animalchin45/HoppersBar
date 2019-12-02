@@ -387,12 +387,6 @@ header nav li {
 	cursor: pointer;
 }
 
-@media (max-width: 1200px) {
-	.connect div {
-		/*flex-basis: 100%;*/
-	}
-}
-
 /*Footer Styles*/
 
 .footer {

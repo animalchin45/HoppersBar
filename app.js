@@ -1,6 +1,7 @@
 var express 	= require("express"),
 	app     	= express();
 
+var port = process.env.PORT || 3000
 
 var indexRoute = require("./routes/index");
 
@@ -10,9 +11,6 @@ app.use("/gsap", express.static(__dirname + "/node_modules/gsap"));
 
 app.use(indexRoute);
 
-app.listen(3000, function(){
+app.listen(port, function(){
 	console.log("Hopper's Bar");
 });
-
-// HOSTED SERVER CODE
-// app.listen(process.env.PORT, process.env.IP);
