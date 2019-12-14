@@ -57,7 +57,7 @@ a.btn{
 /*Header Styles*/
 
 header {
-	width: 100%;
+	width: 100vw;
 	display: flex;
 	align-items: center;
 	position: fixed;
@@ -92,7 +92,7 @@ header nav li {
 		display: none;
 	}
 	header li {
-		font-size: 30px;
+		font-size: 15px;
 	}
 }
 
@@ -173,7 +173,7 @@ header nav li {
 
 @media (max-width: 1200px) {
 	.hero h1 {
-		font-size: 180px;
+		font-size: 80px;
 	}
 	.hero .up {
 		display: none;
@@ -223,10 +223,10 @@ header nav li {
 
 @media (max-width: 1200px) {
 	.about h2 {
-		font-size: 50px;
+		font-size: 20px;
 	}
 	.about p {
-		font-size: 25px;
+		font-size: 16px;
 	}
 	.about .about-content {
 		padding: 20px 30px;
@@ -276,7 +276,14 @@ header nav li {
 		width: 90vw;
 		padding: 10px;
 	}
+	.drink {
+		width: 60%;
+		margin-bottom: 20px;
+	}
 	.drink p {
+		font-size: 16px;
+	}
+	.drink h2 {
 		font-size: 20px;
 	}
 }
@@ -342,7 +349,7 @@ header nav li {
 }
 
 .connect div {
-	padding: 20px;
+	padding: 20px 0;
 	flex-basis: 33%;
 }
 
@@ -403,6 +410,12 @@ header nav li {
 .connect button:hover {
 	opacity: 1;
 	cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+	.connect {
+		flex-direction: column;
+	}
 }
 
 /*Footer Styles*/
