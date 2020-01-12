@@ -5,15 +5,18 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
+    "autoprefix": "postcss public/stylesheets/bar.css -u autoprefixer -o public/stylesheets/styles.css",
     "dev": "nodemon app.js"
   },
   "author": "Tim O'Brien",
   "license": "ISC",
   "dependencies": {
+    "autoprefixer": "^9.7.3",
     "ejs": "^2.6.1",
     "express": "^4.16.4",
     "gsap": "^2.1.2",
     "nodemon": "^2.0.1",
+    "postcss-cli": "^7.1.0",
     "scrollmagic": "^2.0.6"
   }
 }
