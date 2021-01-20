@@ -14,7 +14,7 @@
     "autoprefixer": "^9.7.3",
     "ejs": "^2.6.1",
     "express": "^4.16.4",
-    "gsap": "^2.1.2",
+    "gsap": "^3.6.0",
     "nodemon": "^2.0.1",
     "postcss-cli": "^7.1.0",
     "scrollmagic": "^2.0.6"
